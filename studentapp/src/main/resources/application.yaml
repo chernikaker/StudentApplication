@@ -1,1 +1,4 @@
-spring.application.name=studentapp
+#spring.application.name=studentapp
+spring:
+  application:
+    name: studentapp

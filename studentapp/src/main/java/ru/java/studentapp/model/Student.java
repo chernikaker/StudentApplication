@@ -1,2 +1,21 @@
-package ru.java.studentapp.model;public class Student {
+package ru.java.studentapp.model;
+
+import lombok.*;
+
+import java.time.LocalDate;
+
+@Data
+@Builder
+public class Student {
+
+    @NonNull
+    private String firstName;
+    private String lastName;
+
+
+    private LocalDate dateOfBirth;
+    private String email;
+
+    private int age;
 }
+
